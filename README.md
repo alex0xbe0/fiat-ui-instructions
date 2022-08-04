@@ -4,7 +4,7 @@ Below, I'll walk you through how to run your own Fiat UI in less than 5 minutes.
 
 Instructions:
 1. [Create a free Alchemy account](https://www.alchemy.com/)
-2. Create an Alchemy app on either Mainnet (for production) or Goerli (for testing):
+2. Create 2 Alchemy apps: 1 app for Goerli, 1 app for Mainnet. It should look something like this:
 ![image](https://user-images.githubusercontent.com/101981457/182910069-ca9e3828-b5fd-4777-b390-a038806ade5f.png)
 
 3. Fork the [Fiat UI GitHub repo](https://github.com/fiatdao/fiat-ui.git)
@@ -26,7 +26,9 @@ Your build settings should look something like this: ![image](https://user-image
 ```
 NEXT_PUBLIC_REACT_APP_DEFAULT_CHAIN_ID=1
 NEXT_PUBLIC_REACT_APP_SUBGRAPH_MAINNET=https://api.thegraph.com/subgraphs/name/fiatdao/fiat-subgraph
+NEXT_PUBLIC_REACT_APP_SUBGRAPH_GOERLI=https://api.thegraph.com/subgraphs/name/fiatdao/fiat-subgraph-goerli
 NEXT_PUBLIC_REACT_APP_RPC_URL_MAINNET=REPLACE_ME_WITH_ALCHEMY_URL
+NEXT_PUBLIC_REACT_APP_RPC_URL_GOERLI=REPLACE_ME_WITH_ALCHEMY_URL
 NEXT_PUBLIC_VERCEL_ENV=production
 ```
 
