@@ -15,7 +15,8 @@ Instructions:
 7. Select "IPFS" Hosting Services
 8. Select "NextJS" as the framework:
 ![image](https://user-images.githubusercontent.com/101981457/182909327-73dee41d-f488-4e47-ab85-7a58a36b718e.png)
-9. Open the "Advanced Section" and plug in the following environments variables using the secrets for your newly created Alchemy account:
+9. Update the build script to `yarn && yarn build && yarn run export`
+10. Open the "Advanced Section" and plug in the following environments variables using the secrets for your newly created Alchemy account:
 
 ```
 NEXT_PUBLIC_REACT_APP_DEFAULT_CHAIN_ID=1
@@ -26,4 +27,4 @@ NEXT_PUBLIC_VERCEL_ENV=production
 
 It should look something like this:
 ![image](https://user-images.githubusercontent.com/101981457/182909706-0278e0a1-eb84-4988-b112-3a55f74469d4.png)
-10. Click "Deploy Site"!
+11. Click "Deploy Site"!
