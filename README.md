@@ -8,7 +8,7 @@ Instructions:
 ![image](https://user-images.githubusercontent.com/101981457/182910069-ca9e3828-b5fd-4777-b390-a038806ade5f.png)
 
 3. Fork the [Fiat UI GitHub repo](https://github.com/fiatdao/fiat-ui.git)
-4. Create a free Fleek account (using your GitHub login)
+4. [Create a free Fleek account] (https://fleek.co/) (Make sure you use your GitHub account to register)
 5. Create a new Fleek site
 6. Connect Fleek to your forked version of the Fiat UI repo:
 ![image](https://user-images.githubusercontent.com/101981457/182909143-72860a47-a729-4f7b-b698-b82ddf791b76.png)
