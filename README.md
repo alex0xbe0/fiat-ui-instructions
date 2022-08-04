@@ -1,6 +1,6 @@
 # How to run a decentralized version of Fiat UI for free (in < 5 minutes)
 
-Below, I'll walk you through how to run your own Fiat UI for free.
+Below, I'll walk you through how to run your own Fiat UI in less than 5 minutes.
 
 Instructions:
 1. [Create a free Alchemy account](https://www.alchemy.com/)
@@ -17,6 +17,10 @@ Instructions:
 ![image](https://user-images.githubusercontent.com/101981457/182909327-73dee41d-f488-4e47-ab85-7a58a36b718e.png)
 9. Update the build script to `yarn && yarn build && yarn run export`
 10. Set the base directory to `./`
+
+Your build settings should look something like this: ![image](https://user-images.githubusercontent.com/101981457/182911878-3add0525-4614-42b2-834e-058caf704334.png)
+
+
 11. Open the "Advanced Section" and plug in the following environments variables using the secrets for your newly created Alchemy account:
 
 ```
