@@ -35,3 +35,5 @@ NEXT_PUBLIC_VERCEL_ENV=production
 It should look something like this:
 ![image](https://user-images.githubusercontent.com/101981457/182909706-0278e0a1-eb84-4988-b112-3a55f74469d4.png)
 11. Click "Deploy Site"!
+
+You're all done! You've successfully deployed Fiat UI to Fleek.
