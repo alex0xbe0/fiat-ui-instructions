@@ -2,12 +2,11 @@
 
 Below, I'll walk you through how to run your own Fiat UI for free.
 
-Prerequisites:
-1. GitHub account
-
 Instructions:
 1. [Create a free Alchemy account](https://www.alchemy.com/)
-2. Create an Alchemy project on either Mainnet (for production) or Goerli (for testing)
+2. Create an Alchemy app on either Mainnet (for production) or Goerli (for testing):
+![image](https://user-images.githubusercontent.com/101981457/182910069-ca9e3828-b5fd-4777-b390-a038806ade5f.png)
+
 3. Fork the [Fiat UI GitHub repo](https://github.com/fiatdao/fiat-ui.git)
 4. Create a free Fleek account (using your GitHub login)
 5. Create a new Fleek site
