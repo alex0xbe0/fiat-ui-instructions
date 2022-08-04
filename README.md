@@ -16,7 +16,8 @@ Instructions:
 8. Select "NextJS" as the framework:
 ![image](https://user-images.githubusercontent.com/101981457/182909327-73dee41d-f488-4e47-ab85-7a58a36b718e.png)
 9. Update the build script to `yarn && yarn build && yarn run export`
-10. Open the "Advanced Section" and plug in the following environments variables using the secrets for your newly created Alchemy account:
+10. Set the base directory to `./`
+11. Open the "Advanced Section" and plug in the following environments variables using the secrets for your newly created Alchemy account:
 
 ```
 NEXT_PUBLIC_REACT_APP_DEFAULT_CHAIN_ID=1
